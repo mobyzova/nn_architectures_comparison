@@ -1,0 +1,26 @@
+{
+    "dataset": "Weather",
+    "window_size": 24,
+    "horizon": 1,
+    "train_shape": [
+        31593,
+        24,
+        21
+    ],
+    "val_shape": [
+        10515,
+        24,
+        21
+    ],
+    "test_shape": [
+        10516,
+        24,
+        21
+    ],
+    "normalization": "MinMaxScaler [0,1] (fit on train only)",
+    "stationary_p_value_mean": 1.0365088404208332e-08,
+    "is_stationary": true,
+    "trend": "нет",
+    "seasonality": "да",
+    "random_seed": 42
+}

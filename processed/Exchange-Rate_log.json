@@ -1,0 +1,26 @@
+{
+    "dataset": "Exchange-Rate",
+    "window_size": 24,
+    "horizon": 1,
+    "train_shape": [
+        4528,
+        24,
+        8
+    ],
+    "val_shape": [
+        1494,
+        24,
+        8
+    ],
+    "test_shape": [
+        1494,
+        24,
+        8
+    ],
+    "normalization": "MinMaxScaler [0,1] (fit on train only)",
+    "stationary_p_value_mean": 0.3597736139274642,
+    "is_stationary": false,
+    "trend": "слабый",
+    "seasonality": "да",
+    "random_seed": 42
+}

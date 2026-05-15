@@ -1,0 +1,10 @@
+{
+    "dataset": "ETTm1",
+    "window_size": 24,
+    "horizon": 1,
+    "train_samples": 41784,
+    "val_samples": 13912,
+    "test_samples": 13912,
+    "n_features": 7,
+    "n_timesteps": 69680,
+    "stationary": 

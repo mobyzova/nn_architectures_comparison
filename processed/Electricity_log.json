@@ -1,0 +1,26 @@
+{
+    "dataset": "Electricity",
+    "window_size": 24,
+    "horizon": 1,
+    "train_shape": [
+        15758,
+        24,
+        321
+    ],
+    "val_shape": [
+        5237,
+        24,
+        321
+    ],
+    "test_shape": [
+        5237,
+        24,
+        321
+    ],
+    "normalization": "MinMaxScaler [0,1] (fit on train only)",
+    "stationary_p_value_mean": 0.005149945171256863,
+    "is_stationary": true,
+    "trend": "нет",
+    "seasonality": "да",
+    "random_seed": 42
+}
